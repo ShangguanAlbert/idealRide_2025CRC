@@ -166,3 +166,24 @@ void servo(uint8_t num, uint32_t pulse)
             break;
     }
 }
+
+void human_down(void)
+{
+    servo(2, 2500);
+}
+void human_up(void)
+{
+    servo(2, 1900);
+}
+void front_down(void)
+{
+    servo(1, 2500);
+}
+void front_mid(void)
+{
+    servo(1, 2000);
+}
+void front_up(void)
+{
+    servo(1, 1500);
+}
