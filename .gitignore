@@ -9,6 +9,7 @@
 /bin
 /obj
 /out
+/.DS_Store
 
 # eide template
 *.ept
