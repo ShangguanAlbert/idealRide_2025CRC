@@ -129,14 +129,6 @@ void Program_1(void)
 void Program_2(void)
 {
     Progarm_Running_Info("Program 2", "Running");
-    // sound_ready(); // 播报准备完毕
-    while (1) {
-        RGB_Read();                                  // 读取RGB颜色传感器数据
-        LCD_DisplayNumber(0, 20, RGB_GetRed(), 3);   // 显示红色值
-        LCD_DisplayNumber(0, 50, RGB_GetGreen(), 3); // 显示绿色值
-        LCD_DisplayNumber(0, 80, RGB_GetBlue(), 3);  // 显示蓝色值
-        Delay_ms(100);                               // 延时100ms
-    }
 }
 
 /**
