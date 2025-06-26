@@ -1,0 +1,368 @@
+{
+  "name": "STM32F4_Template",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Core",
+        "files": [
+          {
+            "path": "Core/src/startup_stm32f40_41xxx.s"
+          },
+          {
+            "path": "Core/src/stm32f4xx_it.c"
+          },
+          {
+            "path": "Core/src/system_stm32f4xx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "StdLib",
+        "files": [
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/misc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c"
+          },
+          {
+            "path": "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USR",
+        "files": [
+          {
+            "path": "main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "BSP/LED/bsp_led.c"
+          },
+          {
+            "path": "BSP/KEY/bsp_key.c"
+          },
+          {
+            "path": "BSP/LCD/bsp_lcd.c"
+          },
+          {
+            "path": "BSP/LCD/lcd_fonts.c"
+          },
+          {
+            "path": "BSP/LCD/lcd_spi_130.c"
+          },
+          {
+            "path": "BSP/LCD/lcd_buffer.c"
+          },
+          {
+            "path": "BSP/GRAYSCALE/bsp_grayscale.c"
+          },
+          {
+            "path": "BSP/PESENSOR/bsp_pe.c"
+          },
+          {
+            "path": "BSP/QRSCAN/bsp_qr.c"
+          },
+          {
+            "path": "BSP/GYRO/bsp_gyro.c"
+          },
+          {
+            "path": "BSP/MOTOR/bsp_motor.c"
+          },
+          {
+            "path": "BSP/SERVO/bsp_servo.c"
+          },
+          {
+            "path": "BSP/SPEAKER/bsp_speaker.c"
+          },
+          {
+            "path": "BSP/CAMERA/bsp_vision.c"
+          },
+          {
+            "path": "BSP/CCD/bsp_ccd.c"
+          },
+          {
+            "path": "BSP/RGB/bsp_rgb.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "System",
+        "files": [
+          {
+            "path": "System/Reset/sysReset.c"
+          },
+          {
+            "path": "System/SysTick/bsp_SysTick.c"
+          },
+          {
+            "path": "System/Timer/timer.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Motion",
+        "files": [
+          {
+            "path": "Motion/Basic/basic.c"
+          },
+          {
+            "path": "Motion/Basic/turn.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "a19ad8cba41861fe72ae99d5347e6565"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "STM32F407VETx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f4x",
+          "interface": "cmsis-dap-v1",
+          "baseAddr": "0x08000000"
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/debug.st.option.bytes.ini",
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "Core/inc",
+          "STM32F4xx_StdPeriph_Driver/inc",
+          ".",
+          "BSP/CAMERA",
+          "BSP/GRAYSCALE",
+          "BSP/GYRO",
+          "BSP/KEY",
+          "BSP/LCD",
+          "BSP/LED",
+          "BSP/MOTOR",
+          "BSP/PESENSOR",
+          "BSP/QRSCAN",
+          "BSP/RGB",
+          "BSP/SERVO",
+          "System/Reset",
+          "System/SysTick",
+          "System/Timer",
+          "BSP/CCD",
+          "BSP/SPEAKER",
+          "Motion/Basic"
+        ],
+        "libList": [],
+        "defineList": [
+          "STM32F40_41xxx",
+          "USE_STDPERIPH_DRIVER",
+          "STM32F407xx"
+        ]
+      },
+      "builderOptions": {
+        "GCC": {
+          "version": 5,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "$float-abi-type": "hard",
+            "output-debug-info": "enable",
+            "misc-control": "--specs=nosys.specs --specs=nano.specs"
+          },
+          "c/cpp-compiler": {
+            "language-c": "c99",
+            "language-cpp": "c++11",
+            "optimization": "level-debug",
+            "warnings": "all-warnings",
+            "one-elf-section-per-function": true,
+            "one-elf-section-per-data": true
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "LIB_FLAGS": "-lm",
+            "$toolName": "auto"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
