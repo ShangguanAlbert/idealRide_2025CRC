@@ -80,3 +80,9 @@
 
 - **问题**：CCD 数据未处理
   - CCD 数据未处理
+
+## 许可证
+
+本仓库的原创代码采用 GNU Affero General Public License v3.0（仅第 3 版，`AGPL-3.0-only`）许可。完整条款见 [LICENSE](LICENSE)。
+
+仓库中包含的第三方代码（包括 STMicroelectronics 标准外设库和 ARM CMSIS）保留其原有版权声明和许可条款；本项目的许可证不替代这些第三方许可。
